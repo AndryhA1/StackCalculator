@@ -9,7 +9,5 @@ public class CalculatorTest {
 
         Calculator calculator = new Calculator();
         calculator.startCalc("FileForInput");
-
-
     }
 }

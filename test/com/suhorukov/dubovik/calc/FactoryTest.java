@@ -46,8 +46,6 @@ public class FactoryTest {
         assertEquals(0, testStack.size());
     }
 
-
-
     @Test
     public void x1() throws Exception {
 

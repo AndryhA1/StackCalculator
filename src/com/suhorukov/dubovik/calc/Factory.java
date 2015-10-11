@@ -21,7 +21,6 @@ public class Factory {
     private static final ICommand NOT_FOUND_COMMAND = args -> System.out.println("Команда не найдена!");
     Map<String, ICommand> commandsMap = new HashMap<>();
 
-
     Factory(ResourceSource resourceSource) throws Exception {
 
         Properties properties = new Properties();

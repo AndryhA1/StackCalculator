@@ -1,4 +1,5 @@
 package com.suhorukov.dubovik.calc;
+
 /**
  * Stack Calculator.
  */
