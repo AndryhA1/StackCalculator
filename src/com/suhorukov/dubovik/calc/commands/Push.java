@@ -28,7 +28,7 @@ public class Push implements ICommand {
                 stack.push(Double.valueOf(args[1]));    // Если не нашли, конвертируем значение и добавляем в стек.
             } catch (NumberFormatException e) {
                 e.printStackTrace();
-//                System.out.println("Папаметр: " + args[1] + " не найден."); // На случай если вдруг буква, а не цифра
+//                System.out.println("Параметр: " + args[1] + " не найден."); // На случай если вдруг буква, а не цифра
             }
         }
     }

@@ -20,7 +20,7 @@ public class Define implements ICommand {
             context.put(args[1], Double.valueOf(args[2]));
         } catch (NumberFormatException e) {
             e.printStackTrace();
-//            System.out.println("Папаметр: " + args[2] + " неверный.");
+//            System.out.println("Параметр: " + args[2] + " неверный.");
         }
     }
 }
