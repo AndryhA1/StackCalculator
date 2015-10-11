@@ -1,0 +1,25 @@
+DEFINE a 10
+DEFINE b 30
+DEFINE c 20
+PUSH 2
+PUSH a
+*
+PUSH b
+PUSH 0
+-
+PUSH 4
+PUSH a
+*
+PUSH c
+*
+PUSH b
+PUSH b
+*
+-
+PRINT
+SQRT
+PUSH 0
+-
++
+/
+PRINT
